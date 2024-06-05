@@ -1,0 +1,100 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Navigation ul{
+    display:flexbox;
+}
+
+.Navigation li{
+    list-style-type: none;
+    padding: 10px;
+    float: right;
+    padding-bottom: 10px;  
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.Me {
+    text-align: left;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 50px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    padding: 15px;
+    box-sizing: content-box;
+    width: 50%
+}
+
+.Experience {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Experience ul{
+    display:flexbox;
+    flex-direction: row;
+}
+
+.Experience li{
+    list-style-type: none;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+#Skills {
+    margin: 15px;
+    padding: 10px;
+    display: flexbox;
+}
+
+ul{
+    list-style-type: none;
+    display:flexbox;
+    flex-direction: row;
+    padding: 10px;
+    margin: auto;
+    font-family:'Courier New', Courier, monospace
+    font-size: 30px;
+}
+
+#HTML {
+    padding: 20px;
+}
+
+#CSS {
+    padding: 20px;
+}
+
+#JavaScript {
+    padding: 20px;
+}
+
+#Python {
+    padding: 20px;
+}
+
+#Java {
+    padding: 20px;
+}
+
+#React {
+    padding: 20px;
+}
+
+#Angular {
+    padding: 20px;
+}
+
+#SQL {
+    padding: 20px;
+}
