@@ -64,7 +64,7 @@ ul{
     padding: 10px;
     margin: auto;
     font-family:'Courier New', Courier, monospace
-    font-size: 30px;
+   
 }
 
 #HTML {
@@ -98,3 +98,18 @@ ul{
 #SQL {
     padding: 20px;
 }
+
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
+
+.contact {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 1px;
+}
+
+
