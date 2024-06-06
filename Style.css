@@ -39,6 +39,7 @@ p {
 #me {
     display: flex;
     flex-wrap: wrap;
+    float: right;
 
 }
 
@@ -59,7 +60,7 @@ p {
 
 #Skills {
     margin: 15px;
-    padding: 10px;
+    padding: 5px;
     display: flexbox;
 }
 
@@ -67,7 +68,7 @@ ul{
     list-style-type: none;
     display:flexbox;
     flex-direction: row;
-    padding: 10px;
+    padding: 5px;
     margin: auto;
     font-family:'Courier New', Courier, monospace
    
@@ -108,7 +109,6 @@ ul{
 footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
-    background-color: black;
     color: white;
 }
 

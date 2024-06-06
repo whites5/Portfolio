@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <HTML:5>
     <html lang="en">
-        <head>
+    <head>
+          <head>
           <meta charset="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <title>My Portfoilo</title>
@@ -77,7 +78,8 @@
                         <i class="fa-solid fa-database" id="SQL">SQL</i>
                         <i class="ri-snowflake-fill" id="Snowflake">Snowflake</i>
                     </ul>
-                    <button type="button" class ="btn" id="myButton">Click Me</button>
+                    <button type="button" class ="btn" id="myButton">Click Me</button> 
+                    <button type="button" class ="btn" id="myButton2">Reset</button>"
                 </section>
             </main>
           </body>
@@ -95,13 +97,20 @@
 
             window.onload = function() {
                 function changeColor(){
-                    document.querySelector('.Experience').style.color = 'Blue';
-
+                    document.querySelector('body').style.backgroundColor = 'Blue';
+                    
                 }
-                let button = document.getElementById("myButton");
-                button.addEventListener('click', changeColor);
-            };
 
+                function resetColor() {
+                    document.querySelector('body').style.backgroundColor = 'Black';
+                }
+
+                let button1 = document.getElementById("myButton");
+                button1.addEventListener('click', changeColor);
+
+                let button2 = document.getElementById("myButton2");
+                button2.addEventListener('click', resetColor);
+            };
           </script>
     </head>
 </HTML:5>
