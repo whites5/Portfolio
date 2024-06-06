@@ -46,6 +46,7 @@
                                 Manchester United. Fun Fact about me I was scouted by Leicester Raiders for basketball and Leicester tigers
                                 for rugby.
                             </p>
+                            <img id="me" src="/Users/simonwhite/Library/CloudStorage/OneDrive-Personal/Documents/Full Stack Engineer/Portfoilo/Portfolio/Portfolio-1/A465C5EA-08F8-4E75-831B-8D5F2377E549.JPG">
                         </div>
                     </div>
 
@@ -76,6 +77,7 @@
                         <i class="fa-solid fa-database" id="SQL">SQL</i>
                         <i class="ri-snowflake-fill" id="Snowflake">Snowflake</i>
                     </ul>
+                    <button type="button" class ="btn" id="myButton">Click Me</button>
                 </section>
             </main>
           </body>
@@ -90,7 +92,16 @@
           </footer>
           <script src="https://kit.fontawesome.com/ed9cd4fb6e.js" crossorigin="anonymous"></script>
           <script>
-            function changeColor()
+
+            window.onload = function() {
+                function changeColor(){
+                    document.querySelector('.Experience').style.color = 'Blue';
+
+                }
+                let button = document.getElementById("myButton");
+                button.addEventListener('click', changeColor);
+            };
+
           </script>
     </head>
 </HTML:5>
